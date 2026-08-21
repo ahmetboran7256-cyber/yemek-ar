@@ -39,3 +39,23 @@
     }
   </style>
 </head>
+<body>
+
+  <h1>3D Menü Demo</h1>
+
+  <model-viewer
+    src="21.08.2026.glb"
+    alt="3D yastık modeli"
+    camera-controls
+    auto-rotate
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    shadow-intensity="1">
+  </model-viewer>
+
+  <button onclick="document.querySelector('model-viewer').activateAR()">
+    Masamda Gör
+  </button>
+
+</body>
+</html>
